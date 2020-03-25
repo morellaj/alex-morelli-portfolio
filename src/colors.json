@@ -1,0 +1,14 @@
+{
+    "color": "#E0EBE8",
+    "darkColor": "#47B39A",
+    "darkerColor": "#295C52",
+    "software": {
+        "color": "#F76160"
+    },
+    "other": {
+        "color": "#679895"
+    },
+    "all": {
+        "color": "#66A7D5"
+    }
+}

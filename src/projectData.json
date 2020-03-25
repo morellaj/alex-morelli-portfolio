@@ -1,0 +1,199 @@
+[
+    {
+        "title": "Learning is the Solution",
+        "order": 1,
+        "date": "March 2019 - Current",
+        "tags": ["Front-end", "JavaScript", "React", "Redux", "Software"],
+        "role": "Co-founder and Lead Developer",
+        "links": [
+            {
+                "name": "Live",
+                "link": "https://learningisthesolution.com/"
+            },
+            {
+                "name": "GitHub",
+                "link": "https://github.com/morellaj/vsc-test"
+            },
+            {
+                "name": "More Info",
+                "link": "/articles/learning-is-the-solution"
+            }
+        ],
+        "description": "Website to provide free online books for kids ages 4-9.  The best showcase of my skills as a developer.  <b>Click 'More Info' below to learn more!</b>"
+    },
+    {
+        "title": "Online Book Maker",
+        "order": 11,
+        "date": "February 2019 - Current",
+        "tags": ["Front-end", "JavaScript", "React", "Software"],
+        "role": "Creator",
+        "links": [
+            {
+                "name": "Live",
+                "link": "https://flamboyant-kalam-312ef6.netlify.com/"
+            },
+            {
+                "name": "GitHub",
+                "link": "https://github.com/morellaj/book-builder"
+            }
+        ],
+        "description": "Currently developing app to create online books visually.  App exports JSON instructions to create books using React components."
+    },
+    {
+        "title": "Online Science Curriculum",
+        "order": 12,
+        "date": "May 2019 - September 2019",
+        "tags": ["Front-end", "JavaScript", "React", "Software"],
+        "role": "Creator",
+        "links": [
+            {
+                "name": "Live",
+                "link": "https://learningisthesolution-1-10.glitch.me"
+            },
+            {
+                "name": "Glitch",
+                "link": "https://glitch.com/edit/#!/learningisthesolution-1-10?path=README.md:1:0"
+            }
+        ],
+        "description": "Combines most popular homeschool science curriculums into a single curriculum accessible online.  Was initial plan for Learning is the Solution before switching focus to online character books."
+    },
+    {
+        "title": "Gravity Simulator",
+        "order": 13,
+        "date": "May 2019",
+        "tags": ["Front-end", "JavaScript", "Phaser 3", "Software"],
+        "role": "Creator",
+        "links": [
+            {
+                "name": "Live",
+                "link": "https://morellaj.github.io/gravitySimv2/"
+            },
+            {
+                "name": "GitHub",
+                "link": "https://github.com/morellaj/morellaj.github.io/tree/master/gravitySim"
+            }
+        ],
+        "description": "Simulates gravity given different environmental conditions.  Created using pure JavaScript, then re-implemented using Phaser 3."
+    },
+    {
+        "title": "Technician Team Improvement",
+        "order": 4,
+        "date": "August 2016 - March 2019",
+        "tags": ["Leadership", "Team", "Electrical", "Robotics"],
+        "role": "Engineering Manager",
+        "description": "Tasked with improving performance of a team of 15 technicians.  Over 2 years drove significant improvements to tool down time, cost savings, and documentation, leading to <b>overall performance improvement of 23%</b>."
+    },
+    {
+        "title": "Pneumatic Lines Upgrade",
+        "order": 14,
+        "date": "January 2019 - March 2019",
+        "tags": ["Electrical", "Robotics"],
+        "description": "A toolset had long-term issue of air leaks in the pneumatic lines.  Found deceptively simple solution - replacing lines with chemical resistant PFA.  <b>Reduced tool downs by 30%</b> and avoided costly redesign."
+    },
+    {
+        "title": "Robotic Wet Hood Redesign",
+        "order": 6,
+        "tags": ["Leadership", "Award", "Electrical", "Software", "Robotics", "ACRView", "Team", "TIMS"],
+        "role": "Team Lead and Lead Software/Hardware Designer",
+        "links": [
+            {
+                "name": "More Info",
+                "link": "/articles/robotic-wet-hood-redesign"
+            }
+        ],
+        "description": "Redesigned a toolset, including the design of the software and hardware for a new robot controller.  <b>Saved $132k/yr</b> in damaged product/equipment.  Presented at 2018 worldwide innovation competition and placed <b>10<sup>th</sup>/450</b>."
+    },
+    {
+        "title": "Tool Monitoring Software",
+        "order": 7,
+        "tags": ["Software", "TIMS"],
+        "role": "Software Developer",
+        "description": "Used TI's Tool Interdiction Monitoring System (TIMS) to create tool monitoring software for several toolsets, including furnaces and hoods.  Monitored tool data to catch and interdict if something goes wrong."
+    },
+    {
+        "title": "Equipment State Management Software",
+        "order": 8,
+        "tags": ["Front-end", "JavaScript", "React", "Team"],
+        "role": "Software Developer",
+        "description":"Each of the 400+ tools in the factory is in a 'state'.  For example, ready to run, needs maintenance, currently running, etc.  Created an internal website that allows technicians and operators to more effectively manage these states."
+    },
+    {
+        "title": "Wafer Transfer Redesign",
+        "order": 10,
+        "tags": ["Leadership", "Award", "Electrical", "Software", "Robotics", "C++", "Team"],
+        "role": "Team Lead and Lead Software/Hardware Designer",
+        "links": [
+            {
+                "name": "More Info",
+                "link": "/articles/wafer-transfer-redesign"
+            }
+        ],
+        "description": "Redesigned a toolset, including improving the software and adding temperature detection.  <b>Saved $145k/yr</b> in damaged product/equipment.  Presented at 2017 worldwide innovation competition and placed <b>3<sup>rd</sup>/400</b>."
+    },
+    {
+        "title": "TI Leadership Development Program",
+        "order": 3,
+        "tags": ["Leadership", "Electrical"],
+        "description": "Completed 3 year program intended to take a hand-picked group of top engineering talent from across the country and develop them into robust engineers who could thrive in any environment."
+    },
+    {
+        "title": "Chip Testing Software Development",
+        "order": 2,
+        "tags": ["Software", "C++", "JavaScript", "Team", "Mbayse"],
+        "role": "Software Developer",
+        "links": [
+                {
+                    "name": "More Info",
+                    "link": "/articles/chip-testing-software-development"
+                }
+        ],
+        "description": "Debugged software used to test chips, <b>improving 40 programs and saving $130k/yr</b>.  Developed software to analyze test data, find cost saving opportunities, and detect possible bugs."
+    },
+    {
+        "title": "Chip Tracking Software",
+        "order": 9,
+        "tags": ["Leadership", "Software", "JavaScript", "Team"],
+        "role": "Team Lead and Software Developer",
+        "description": "Lead team to improve software used for tracking the path of chips throughout the factory.  Significantly improved data integrity and tracking capabilities."
+    },
+    {
+        "title": "EWB Rose-Hulman Chapter Improvement",
+        "order": 15,
+        "tags": ["Leadership", "Humanitarian", "Team"],
+        "role": "Chapter President",
+        "links": [
+            {
+                "name": "More Info",
+                "link": "/articles/ewb"
+            }
+        ],
+        "description": "<b>As President, transformed group from a 6-member, one-project chapter into a 25-member, two-project chapter</b>.  Restructured organization to empower each member with clear expectations and a future growth path.  Presented to university leadership board and received ongoing $50k/yr grant."
+    },
+    {
+        "title": "Latrine Construction in Impoverished Community",
+        "order": 16,
+        "tags": ["Leadership", "Humanitarian", "Team"],
+        "role": "EWB Chapter President and Project Lead",
+        "links": [
+            {
+                "name": "More Info",
+                "link": "/articles/ewb?id=problem:-spread-of-disease"
+            }
+        ],
+        "description": "Dominican Republic community was afflicted with disease due to poor sanitation.  Lead project to construct latrines in the community and teach them how to construct their own latrines.  Since completion, <b>infection rate has reduced 40%</b>."
+    },
+    {
+        "title": "Clinic Construction in Impoverished Community",
+        "order": 5,
+        "tags": ["Leadership", "Humanitarian", "Team"],
+        "role": "EWB Chapter Vice President and Project Co-Lead",
+        "links": [
+            {
+                "name": "More Info",
+                "link": "/articles/ewb?id=problem:-healthcare-access"
+            }
+        ],
+        "description": "Dominican Republic community had limited access to affordable healthcare.  Co-lead project to renovate an existing structure into a clinic that would be staffed by a local non-governmental organization (NGO).  Clinic <b>provides free healthcare to hundreds of people every week</b>."
+    }
+
+]

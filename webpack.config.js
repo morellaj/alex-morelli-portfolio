@@ -1,0 +1,77 @@
+const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+
+// const { GenerateSW } = require('workbox-webpack-plugin');
+// const SentryCliPlugin = require('@sentry/webpack-plugin');
+// const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
+
+
+module.exports = {
+  entry: './src/index.jsx',
+  output: {
+    filename: '[name][chunkhash:4].js',
+    path: path.join(__dirname, 'dist'),
+    publicPath: '/'
+  },
+  resolve: {
+    alias: {
+      Colors: path.join(__dirname, 'src/colors.json'),
+      Data: path.join(__dirname, 'src/projectData.json'),
+      Assets: path.join(__dirname, 'assets/'),
+    },
+    extensions: ['.js', '.jsx'],
+  },
+  devServer: {
+    port: 3000,
+    open: true,
+    proxy: {
+      '/api': 'http://localhost:8080',
+    },
+    historyApiFallback: true,
+  },
+  module: {
+    rules: [
+      {
+        test: /\.jsx/,
+        use: {
+          loader: 'babel-loader',
+        },
+        exclude: /node_modules/,
+      },
+      {
+        test: /\.css/,
+        use: ['style-loader', 'css-loader'],
+      },
+      {
+        test: /\.(pdf|png|svg|jpg|gif|woff(2)?|ttf)$/,
+        use: [
+          'file-loader',
+        ],
+      },
+      {
+        test: /\.(jpe?g|png|webp)$/,
+        use: [
+          'webp-loader',
+          'file-loader',
+        ],
+      },
+    ],
+  },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './src/index.html',
+      hash: true,
+    }),
+    // new GenerateSW(),
+    new CopyPlugin([
+      { from: 'assets', to: 'assets' },
+      { from: '_redirects', to: '_redirects', toType: 'file' },
+      { from: 'robots.txt', to: 'robots.txt', toType: 'file' },
+      { from: 'sitemap.xml', to: 'sitemap.xml', toType: 'file' },
+    ]),
+    new CleanWebpackPlugin(),
+    // new BundleAnalyzerPlugin(),
+  ],
+};

@@ -1,0 +1,890 @@
+{
+    "about": [
+        {
+            "type": "title",
+            "content": "About Me"
+        },
+        {
+            "type": "section",
+            "content": "TL;DR"
+        },
+        {
+            "type": "text",
+            "content": "I'm a homeschooling father of two girls, who loves learning about complex systems of any kind - coding, strategy games, philosophy, engineering problems, etc.  I am highly driven to learn and make things better everywhere I go, which has served me well."
+        },
+        {
+            "type": "text",
+            "content": "I had a wonderful 6 years in various engineering roles at TI, where I worked on challenging projects and met inspiring people."
+        },
+        {
+            "type": "text",
+            "content": "Ever since my software development role in 2014, I have coded as a hobby and had my mind set on switching to a coding role.  At the beginning of 2019, the team of technicians I was managing was in a good spot and I completed my tool designs, so I left TI and began coding full time."
+        },
+        {
+            "type": "section",
+            "content": "Who am I?"
+        },
+        {
+            "type": "text",
+            "content": "I love trying to understand complex systems of any kind, from strategy video games and board games to tough math questions and coding.  I have two daughters, age 4 and 7, that my wife and I enjoy homeschooling.  Fun fact: work has brought my family to 6 different houses/apartments in the last 6 years!"
+        },
+        {
+            "type": "section",
+            "content": "What drives me?"
+        },
+        {
+            "type": "text",
+            "content": "<b>Making a Difference</b> - Making things better wherever I go"
+        },
+        {
+            "type": "text",
+            "content": "<b>Learning</b> - Meaningful learning and teaching that solves problems and unleashes new potential"
+        },
+        {
+            "type": "text",
+            "content": "<b>Doing My Best</b> - Moving forward knowing that I did my best; learning from results, but not letting them burden me"
+        },
+        {
+            "type": "text",
+            "content": "<b>Thinking</b> - Thinking about challenging problems, tough questions, and complex systems"
+        },
+        {
+            "type": "text",
+            "content": "<b>Making others proud</b> - Making the most out of the sacrifices others have made for me"
+        },
+        {
+            "type": "text",
+            "content": "<b>Winning</b> - Pushing forward until I have won"
+        },
+        {
+            "type": "section",
+            "content": "Where was I before web dev?"
+        },
+        {
+            "type": "text",
+            "content": "I spent the last 6 years working in various engineering roles at Texas Instruments.  I loved every one of them.  I was constantly being confronted with bigger challenges and, most importantly, meeting inspiring people I could learn from.  The people I met in those 6 years are a big part of who I am today."
+        },
+        {
+            "type": "section",
+            "content": "Why did I switch to web dev?"
+        },
+        {
+            "type": "text",
+            "content": "I realized my love for coding in my software developer role in 2014.  From that point forward I coded as a hobby and had my mind set on moving into a software role.  Fortunately I was able to work on several software projects over the  next few years (TIMS, state management software, <Link to='/articles/wafer-transfer-redesign'>wafer transfer redesign</Link>, <Link to='/articles/robotic-wet-hood-redesign'>robotic wet hood redesign</Link>)."
+        },
+        {
+            "type": "text",
+            "content": "In 2018, two things changed: 1) My wife and I had created lots of homeschooling materials and were eager to have a website we could use to share them with others, and 2) It became clear that a software role at TI wasn't going to be an option."
+        },
+        {
+            "type": "text",
+            "content": "At the beginning of 2019, I completed what I had started at TI -  my team of technicians was finally in a good spot and my tool redesigns were complete.  At that point I was ready to move on.  My wife got a job to support us while I worked full time learning web development and starting <Link to='/articles/lits'>Learning is the Solution</Link>."
+        }
+    ],
+    "learning-is-the-solution": [
+        {
+            "type": "title",
+            "content": "Learning is the Solution (LitS)"
+        },
+        {
+            "type": "section",
+            "content": "TL;DR"
+        },
+        {
+            "type": "text",
+            "content": "I created Learning is the Solution (LitS) for two reasons: <br>1) Large project to further develop my web development skills <br>2) Place we can share our homeschool creations (online books, curricula, book reviews, articles, etc.) "
+        },
+        {
+            "type": "text",
+            "content": "LitS went through many iterations along the way, each expanding my knowledge and improving the website."
+        },
+        {
+            "type": "text",
+            "content": "Currently I'm working on improving SEO, automating the addition of content to the website, and creating an online book maker that will let us build books using React components."
+        },
+        {
+            "type": "section",
+            "content": "Major Iterations"
+        },
+        {
+            "type": "text",
+            "content": "Below are the major iterations LitS went through and some of my learnings at each step."
+        },
+        {
+            "type": "iteration",
+            "version": "<b>LitS v0.1</b>: Science curriculum",
+            "learnings": "Fundamentals of a React app, designing a React app",
+            "source": {
+                "live": "https://learningisthesolution-1-10.glitch.me/",
+                "code": "https://glitch.com/edit/#!/learningisthesolution-1-10?path=app/app.jsx:16:50",
+                "src": "lits-science-curriculum"
+            },
+            "caption": "LitS science curriculum before we started focusing on character development"
+        },
+        {
+            "type": "iteration",
+            "version": "<b>LitS v0.2</b>: First Netlify deploy (Slow, buggy, unpolished, and mostly unfinished)",
+            "learnings": "Deploying React app to production, deploying with Netlify",
+            "source": {
+                "live": "https://5e10e0e7247a836f78ce0c67--xenodochial-hopper-aead1f.netlify.com/",
+                "src": "lits-first-netlify-deploy"
+            },
+            "caption": "LitS the first time I deployed it on Netlify"
+        },
+        {
+            "type": "iteration",
+            "version": "<b>LitS v1.0</b>: Public release",
+            "learnings": "Improving performance via image optimization and code splitting, rendering pdfs, improving UI/UX",
+            "source": {
+                "live": "https://5e28eadc72d7870008b9b3dd--xenodochial-hopper-aead1f.netlify.com/",
+                "src": "lits-public-release"
+            },
+            "caption": "LitS when it was first publicly released"
+        },
+        {
+            "type": "iteration",
+            "version": "<b>LitS v1.1</b>: Analytics and Error Tracking",
+            "learnings": "Google Analytics, Sentry error tracking, lazy loading",
+            "source": {
+                "live": "https://5e3cef3433a6a6000a2003f7--xenodochial-hopper-aead1f.netlify.com/"
+            }
+        },
+        {
+            "type": "iteration",
+            "version": "<b>LitS v1.2</b>: Mobile First and Social Media",
+            "learnings": "Cache busting using webpack, pre-rendering for search engines, mobile first design, incorporating social media",
+            "source": {
+                "live": "https://5e441ea7ef25810008063ee5--xenodochial-hopper-aead1f.netlify.com/",
+                "src": "lits-mobile"
+            },
+            "caption": "LitS optimized for mobile"
+        },
+        {
+            "type": "iteration",
+            "version": "<b>LitS v1.3</b>: Current Version",
+            "learnings": "Redux, React Helmet, and optimizing SEO",
+            "source": {
+                "live": "https://learningisthesolution.com",
+                "code": "https://github.com/morellaj/vsc-test"
+            }
+        },
+        {
+            "type": "section",
+            "content": "Why did we create LitS?"
+        },
+        {
+            "type": "text",
+            "content": "We are making the homeschool materials we wish existed, and want to share them with others!  I was interested in coding, so building a website to share our creations and further my knowledge of web development seemed like the best path."
+        },
+        {
+            "type": "section",
+            "content": "First Shot at LitS"
+        },
+        {
+            "type": "text",
+            "content": "A few friends and I first started working on LitS in early 2017 using pure HTML, CSS, and JavaScript.  While it was a good first attempt, at that point I knew little about web development and didn't have the necessary bandwidth outside of work and family."
+        },
+        {
+            "type": "image",
+            "source": "lits-initial-planning",
+            "caption": "Part of my initial pitch for LitS"
+        },
+        {
+            "type": "section",
+            "content": "Working on LitS Full Time"
+        },
+        {
+            "type": "text",
+            "content": "I left my engineering role at TI in March 2019 to focus on web development.  Around May 2019 I completed freeCodeCamp and was ready to start working on the website full-time.  Initially I focused on merging the best homeschool science curricula into one unified curriculum online."
+        },
+        {
+            "type": "text",
+            "content": "Later we shifted our focus away from science, but the science curriculum project was still a great learning experience.  That was the most complicated React/JavaScript project I had worked on up to that point."
+        },
+        {
+            "type": "text",
+            "content": "<a href='https://learningisthesolution-1-10.glitch.me/' target='_blank' rel='noopener noreferrer'>Live</a>  <a href='https://glitch.com/edit/#!/learningisthesolution-1-10?path=app/app.jsx:16:50'  target='_blank' rel='noopener noreferrer'>Code</a>" 
+        },
+        {
+            "type": "image",
+            "source": "lits-science-curriculum",
+            "caption": "Science page built for LitS"
+        },
+        {
+            "type": "section",
+            "content": "LitS First Draft"
+        },
+        {
+            "type": "text",
+            "content": "I moved on to build the next version of LitS with lots of feedback from other parents along the way.  The website was built using React/Redux and deployed on Netlify."
+        },
+        {
+            "type": "image",
+            "source": "lits-first-draft",
+            "caption": "LitS initial build"
+        },
+        {
+            "type": "text",
+            "content": "This was a huge learning experience since I had never deployed a full React website before.  It felt like a treasure hunt because I was constantly discovering new techniques or tools that completed changed my approach.  Below are some of the treasures I discovered along the way."
+        },
+        {
+            "type": "image",
+            "source": "lits-discoveries",
+            "caption": "Discoveries I made while building LITS"
+        },
+        {
+            "type": "section",
+            "content": "LitS Deployment and First Users"
+        },
+        {
+            "type": "text",
+            "content": "At this point the pieces were built, but it lacked polish.  I worked with a friend of mine who built UI for Reddit.  With his feedback LitS went through several iterations of UI/UX improvements."
+        },
+        {
+            "type": "image",
+            "source": "lits-deploy",
+            "caption": "LitS after improving UI/UX"
+        },
+        {
+            "type": "text",
+            "content": "I thought the website was ready for release, but Google Lighthouse Audit disagreed.  I spent several weeks optimizing the performance, accessibility, and SEO."
+        },
+        {
+            "type": "text",
+            "content": "Finally I released the website and got the word out on Facebook.  I was thrilled by all the positive feedback I received!"
+        },
+        {
+            "type": "section",
+            "content": "Learning from Deployment"
+        },
+        {
+            "type": "text",
+            "content": "Shortly after deploying, I realized some of the questions I should have asked before I deployed.  How will I know what users are doing on the site or how many are visiting?  How will I establish a connection with users to get feedback and send updates?  How will I be alerted when the app has an error?  How will I be found in searches?  What devices and browsers are my users going to use predominantly?"
+        },
+        {
+            "type": "text",
+            "content": "I added Google Analytics, created an email sign-up and social media pages, and added Sentry error tracking.  I optimized SEO (still lots of work to do here) using several tools including Woorank and Google Keyword Planner."
+        },
+        {
+            "type": "text",
+            "content": "I had always pictured users predominantly viewing the website on desktops or tablets, but Google Analytics showed that almost all my users were on their phones!  This was a problem because the site was built desktop first with mobile as an afterthought.  I spent some time refactoring the website to be mobile first."
+        },
+        {
+            "type": "text",
+            "content": "And that brings us to LitS as it is today!"
+        },
+        {
+            "type": "section",
+            "content": "LitS Next Steps"
+        },
+        {
+            "type": "text",
+            "content": "While I'm proud of the website as is, there is still plenty of work to do."
+        },
+        {
+            "type": "text",
+            "content": "1) Currently all the books are pdfs.  This comes with a lot of downsides, including longer load times, limited design flexibility, and manual updates.  I need to create a tool that will allow us to save the books as JSON files (see the next section)."
+        },
+        {
+            "type": "text",
+            "content": "2) Lots of SEO work still needs to be done.  I believe the website's biggest SEO weakness is a lack of backlinks."
+        },
+        {
+            "type": "text",
+            "content": "3) Adding new content to the website needs to be made as automated as possible.  Ideally we add a book to the assets folder and make one social media push, and everything else handles itself."
+        },
+        {
+            "type": "section",
+            "content": "Online Book Maker"
+        },
+        {
+            "type": "text",
+            "content": "Currently I'm working to make the books JSON files instead of PDFs.  The JSON will be an object with page number properties, each of which will be an array of objects.  Each of these objects will be instructions for a React component to render.  Together, these components will make the book!"
+        },
+        {
+            "type": "text",
+            "content": "Since I am not the one who will be making most of these books (that'll be my wife), the coding needed to make a book should be minimal.  I need to create an online book maker, similar to PowerPoint, that allows the books to be created visually."
+        },
+        {
+            "type": "text",
+            "content": "In just a few weeks I have come quite far.  Current functionality includes saving drafts or saving directly to the website, dragging and dropping, automated speech bubbles, and error handling.  But there is still a long way to go!"
+        },
+        {
+            "type": "text",
+            "content": "<a href='https://flamboyant-kalam-312ef6.netlify.com/'  target='_blank' rel='noopener noreferrer'>Live</a>  <a href='https://github.com/morellaj/book-builder'  target='_blank' rel='noopener noreferrer'>Code</a>" 
+        },
+        {
+            "type": "image",
+            "source": "online-book-maker",
+            "caption": "LitS Online Book Maker"
+        }
+    ],
+    "robotic-wet-hood-redesign": [
+        {
+            "type": "title",
+            "content": "Robotic Wet Hood Redesign"
+        },
+        {
+            "type": "section",
+            "content": "TL;DR"
+        },
+        {
+            "type": "text",
+            "content": "I initiated and led a team to redesign a robotic toolset created in the 80's.  I designed the software and hardware for a new robot controller.  We mounted proximity sensors to detect product location and I wrote software to stop the tool if the location wasn't correct.  We improved wire routing, added surge protection, and installed security cameras to record the process."
+        },
+        {
+            "type": "text",
+            "content": "The project has been estimated to save 380 man hours/yr and $122k/yr in damaged product and equipment, for a <b>total savings of $132k/yr</b>."
+        },
+        {
+            "type": "text",
+            "content": "I presented to the TI leadership team at the 2018 innovation competition and placed <b>10<sup>th</sup> worldwide</b>."
+        },
+        {
+            "type": "section",
+            "content": "Background"
+        },
+        {
+            "type": "text",
+            "content": "This robotic wet hood toolset plays a sensitive role in the manufacturing process.  Every wafer passes through this toolset.  Inconsistency in this process usually means the wafers are scrapped, which is incredibly expensive."
+        },
+        {
+            "type": "text",
+            "content": "The toolset is old, built sometime in the 80's.  It had limited monitoring capabilities.  The parts were obsolete, failing often, and expensive to purchase.  I formed a team to modernize this toolset."
+        },
+        {
+            "type": "image",
+            "source": "wet-hood-exterior",
+            "caption": "Exterior of a wet hood used in semiconductor processing"
+        },
+        {
+            "type": "image",
+            "source": "wet-hood-interior",
+            "caption": "Interior of a wet hood used in semiconductor processing"
+        },
+        {
+            "type": "section",
+            "content": "Robot Controller"
+        },
+        {
+            "type": "text",
+            "content": "<b>Problem</b> - The controllers that controlled the robot that moved the wafers failed often.  When a controller failed, it cost $18,000 to replace and would scrap $25,000 of wafers.<br><b>Solution</b> - I designed software and hardware for a modern robot controller that was more reliable and only cost $4,000 to build.  I coded the controller using ACRView."
+        },
+        {
+            "type": "image",
+            "source": "robotic-wet-hood-redesign",
+            "caption": "A robot controller"
+        },
+        {
+            "type": "image",
+            "source": "acr-code",
+            "caption": "ACRView code example - detecting whether robot is homed"
+        },
+        {
+            "type": "section",
+            "content": "Product Detection"
+        },
+        {
+            "type": "text",
+            "content": "<b>Problem</b> - If something went wrong, for example robot or operator error, there was no way to detect it and stop the wafers from being damaged.<br><b>Solution</b> - We installed sensors that precisely logged the proximity of the product in real time.  I wrote JavaScript and TIMS software to stop the tool if the status was incorrect."
+        },
+        {
+            "type": "image",
+            "source": "sensor",
+            "caption": "Proximity sensors for detecting product position"
+        },
+        {
+            "type": "section",
+            "content": "Other Improvements"
+        },
+        {
+            "type": "text",
+            "content": "The wire routing was altered to improve wire management.  Surge protectors were added to incoming power to protect the equipment. Covers were added to the power button to prevent accidental tool shutdowns.  Fume hoods were added to maximize operator protection from fumes.  High resolution security cameras were added to monitor the process."
+        },
+        {
+            "type": "section",
+            "content": "Total Impact"
+        },
+        {
+            "type": "text",
+            "content": "The project has been estimated to save 380 man hours/yr and $122k/yr in damaged product and equipment, for a <b>total savings of $132k/yr</b>."
+        },
+        {
+            "type": "section",
+            "content": "2018 Worldwide Innovation Competition"
+        },
+        {
+            "type": "text",
+            "content": "Every year TI holds an innovation competition.  The project <b>won 1<sup>st</sup> place at the site competition</b>, which allowed us to go on to the worldwide competition.  I presented to the TI leadership team and placed <b>10<sup>th</sup> worldwide</b>."
+        }
+
+    ],
+    "wafer-transfer-redesign": [
+        {
+            "type": "title",
+            "content": "Wafer Transfer Redesign"
+        },
+        {
+            "type": "section",
+            "content": "TL;DR"
+        },
+        {
+            "type": "text",
+            "content": "I initiated and led a team to redesign the wafer transfer toolset.  We added heat sensors and I wrote software to prevent the tool from running if the wafers were too hot.  We mounted security cameras to monitor the process and 'safety flags' to prevent the tool from accidentally running."
+        },
+        {
+            "type": "text",
+            "content": "The project has been estimated to save 500 man hours/yr and $135k/yr in damaged product and equipment, for a <b>total savings of $145k/yr</b>."
+        },
+        {
+            "type": "text",
+            "content": "I presented to the TI leadership team at the 2017 innovation competition and placed <b>3<sup>rd</sup> worldwide</b>."
+        },
+        {
+            "type": "section",
+            "content": "Background"
+        },
+        {
+            "type": "text",
+            "content": "The wafer transfer toolset is used to move wafers from a plastic boat to a quartz boat before the wafers are run through a furnace.  While this process is fairly simply, every wafer goes through a wafer transfer dozens of times.  Also, the process requires precision and can damage wafers if things don't run exactly as expected."
+        },
+        {
+            "type": "text",
+            "content": "The toolset was responsible for a lot of damaged product.  On top of that, it had limited monitoring capabilities and there had been some near-miss safety events.  I formed a team to redesign this toolset."
+        },
+        {
+            "type": "image",
+            "source": "wafer-transfer-redesign",
+            "caption": "Wafer transfer used in semiconductor processing"
+        },
+        {
+            "type": "section",
+            "content": "Heat Detection"
+        },
+        {
+            "type": "text",
+            "content": "<b>Problem</b> - Wafers come out of a furnace extremely hot (800C+) and need to cool before running on the wafer transfer.  Operators sometimes run wafers on the tool too early, melting pieces of the wafer transfer and ruining the wafers.<br><b>Solution</b> - We added a heat sensor to detect the temperature of the wafers and I wrote Arduino software to prevent the tool from running if the temperature was too high."
+        },
+        {
+            "type": "image",
+            "source": "temperature-sensor",
+            "caption": "Heat sensor to monitor wafer temperature"
+        },
+        {
+            "type": "section",
+            "content": "Process Monitoring"
+        },
+        {
+            "type": "text",
+            "content": "<b>Problem</b> - It is difficult to determine the cause of wafer damage after the event occurred.<br><b>Solution</b> - We modified the tool frames so that a security camera could be mounted.  The video was recorded to DVRs and could be viewed locally.  This allowed the team to find and eliminate the root cause of many issues."
+        },
+        {
+            "type": "image",
+            "source": "surveillance",
+            "caption": "Security cameras and DVR for monitoring the process"
+        },
+        {
+            "type": "section",
+            "content": "Safety Flags"
+        },
+        {
+            "type": "text",
+            "content": "<b>Problem</b> - The tool could accidentally be run, potentially hurting someone and/or damaging product.<br><b>Solution</b> - Added 'safety flags' that would press against the main shaft and prevent the tool from running in an unsafe situation."
+        },
+        {
+            "type": "section",
+            "content": "Total Impact"
+        },
+        {
+            "type": "text",
+            "content": "The project has been estimated to save 500 man hours/yr and $130k/yr in damaged product and equipment, for a <b>total savings of $145k/yr</b>."
+        },
+        {
+            "type": "section",
+            "content": "2018 Worldwide Innovation Competition"
+        },
+        {
+            "type": "text",
+            "content": "Every year TI holds an innovation competition.  The project <b>won 1<sup>st</sup> place at the site competition</b>, which allowed us to go on to the worldwide competition.  I presented to the TI leadership team and placed <b>3<sup>rd</sup> worldwide</b>."
+        }
+
+    ],
+    "ewb": [
+        {
+            "type": "title",
+            "content": "Engineers Without Border (EWB)"
+        },
+        {
+            "type": "section",
+            "content": "TL;DR"
+        },
+        {
+            "type": "text",
+            "content": "I was elected to be Vice President, then President of the Rose-Hulman chapter of Engineers Without Borders (EWB).  I lead a project to construct latrines in a community that was afflicted by disease due to poor hygiene, <b>reducing the infection rate by 40%</b>.  I co-lead a project to construct a clinic in a community without adequate access to healthcare.  It now <b>provides hundreds of people with free healthcare</b> every week."
+        },
+        {
+            "type": "image",
+            "source": "clinic-construction-in-impoverished-community",
+            "caption": "Clinic constructed to provide healthcare access"
+        },
+        {
+            "type": "image",
+            "source": "latrine-construction-in-impoverished-community",
+            "caption": "One of many latrines constructed to improve hygiene"
+        },
+        {
+            "type": "section",
+            "content": "Background"
+        },
+        {
+            "type": "text",
+            "content": "EWB partners with developing communities to help them meet their basic human needs."
+        },
+        {
+            "type": "text",
+            "content": "I joined the Rose-Hulman chapter of EWB my freshman year.  I was later elected as Vice President, then President of the group."
+        },
+        {
+            "type": "image",
+            "source": "ewb-rose-hulman-chapter-improvement",
+            "caption": "Engineers Without Borders (EWB) logo"
+        },
+        {
+            "type": "section",
+            "content": "Problem: Healthcare Access"
+        },
+        {
+            "type": "text",
+            "content": "We were working with an impoverished community in the Dominican Republic."
+        },
+        {
+            "type": "image",
+            "source": "clinic-community-1",
+            "caption": "Children spending their days working to help provide for their families"
+        },
+        {
+            "type": "image",
+            "source": "clinic-community-2",
+            "caption": "Low standard of living in the community"
+        },
+        {
+            "type": "text",
+            "content": "Their biggest problem was lack of access to affordable healthcare.  This meant people couldn't go to the doctor for serious medical conditions, leading to chronic health problems or death."
+        },
+        {
+            "type": "section",
+            "content": "Solution: Build a Clinic"
+        },
+        {
+            "type": "text",
+            "content": "We coordinated with a local non-governmental organization (NGO) who was also working on this problem.  If we could provide a clinic, the NGO could staff it and provide free healthcare services."
+        },
+        {
+            "type": "image",
+            "source": "ngo",
+            "caption": "Discussing possibilities with the NGO"
+        },
+        {
+            "type": "text",
+            "content": "We couldn't afford to construct a clinic from scratch, but we found a nearby structure that we could renovate into a clinic by adding a roof and a septic system."
+        },
+        {
+            "type": "image",
+            "source": "structure-interior",
+            "caption": "Exterior of structure we planned to renovate"
+        },
+        {
+            "type": "image",
+            "source": "structure-exterior",
+            "caption": "Interior of structure we planned to renovate"
+        },
+        {
+            "type": "section",
+            "content": "Clinic Construction"
+        },
+        {
+            "type": "text",
+            "content": "After lots of designing, planning, and fundraising, we traveled to the country to construct the clinic."
+        },
+        {
+            "type": "image",
+            "source": "clinic-team",
+            "caption": "Early in the construction of the roof"
+        },
+        {
+            "type": "text",
+            "content": "We only had 12 days in the country and we worked every one of them.  It was a lot of hard work, but it paid off and the clinic was completed."
+        },
+        {
+            "type": "image",
+            "source": "clinic-work-1",
+            "caption": "Working on the clinic roof"
+        },
+        {
+            "type": "image",
+            "source": "clinic-work-2",
+            "caption": "Working on the clinic roof"
+        },
+        {
+            "type": "image",
+            "source": "clinic-construction-in-impoverished-community",
+            "caption": "Completed clinic"
+        },
+        {
+            "type": "image",
+            "source": "completed-clinic-interior",
+            "caption": "Completed clinic interior"
+        },
+        {
+            "type": "section",
+            "content": "Septic System Construction"
+        },
+        {
+            "type": "text",
+            "content": "Shortly after we returned and built the septic system."
+        },
+        {
+            "type": "image",
+            "source": "septic-return",
+            "caption": "Returning to build the septic system"
+        },
+        {
+            "type": "image",
+            "source": "septic-work",
+            "caption": "Working on the septic system"
+        },
+        {
+            "type": "image",
+            "source": "septic-completed",
+            "caption": "Septic system completed"
+        },
+        {
+            "type": "text",
+            "content": "With the septic system completed, the clinic ws fully operational.  Since then it has served hundreds of sick people every week."
+        },
+        {
+            "type": "section",
+            "content": "Problem: Spread of Disease"
+        },
+        {
+            "type": "text",
+            "content": "The following year we moved on to an even poorer community in the Dominican Republic.  Most people were living in shacks made of wood and corrugated metal, and a faucet in the middle of the town was the only source of water."
+        },
+        {
+            "type": "image",
+            "source": "latrine-community-2",
+            "caption": "Discussing with people in the community"
+        },
+        {
+            "type": "text",
+            "content": "Their biggest problem was hygiene.  Because there were no latrines, disease was spreading throughout the community.  Intestinal parasites were common and young children were particular vulnerable."
+        },
+        {
+            "type": "image",
+            "source": "boy",
+            "caption": "Child posing for a picture"
+        },
+        {
+            "type": "image",
+            "source": "community-children",
+            "caption": "Talking with children in the community"
+        },
+        {
+            "type": "image",
+            "source": "community-children-2",
+            "caption": "Children in the community"
+        },
+        {
+            "type": "text",
+            "content": "A local non-governmental organization (NGO) was helping to treat disease in the community, but it was expensive.  They couldn't continue to help unless something was done to prevent the spread of parasites."
+        },
+        {
+            "type": "image",
+            "source": "latrine-ngo",
+            "caption": "Discussing possibilities with the NGO"
+        },
+        {
+            "type": "section",
+            "content": "Solution: Build Latrines"
+        },
+        {
+            "type": "text",
+            "content": "We decided to design a low-cost, easily-built latrine using local materials.  We would teach them how to build it and build a few with them, then they would be able to build them on their own."
+        },
+        {
+            "type": "image",
+            "source": "surveying",
+            "caption": "Deciding the location of the latrines"
+        },
+        {
+            "type": "image",
+            "source": "latrine-planning",
+            "caption": "Discussing the details of the latrines"
+        },
+        {
+            "type": "text",
+            "content": "After lots of designing, planning, and fundraising, we traveled to the country to construct the latrines.  We built five latrines, and shortly afterwards the community built five on their own."
+        },
+        {
+            "type": "image",
+            "source": "latrine-construction",
+            "caption": "Building a latrine with members of the community"
+        },
+        {
+            "type": "image",
+            "source": "latrine-construction-in-impoverished-community",
+            "caption": "A completed latrine"
+        },
+        {
+            "type": "text",
+            "content": "The project was a success.  Since then, many more latrines have been built and the NGO has reported a <b>40% reduction in the infection rate</b>."
+        },
+        {
+            "type": "image",
+            "source": "boy-hand",
+            "caption": "Holding hand of child in the community"
+        },
+        {
+            "type": "section",
+            "content": "EWB Chapter Improvement"
+        },
+        {
+            "type": "text",
+            "content": "The Rose-Hulman chapter of EWB didn't change much from year to year; the group worked on one project at a time, there were typically around 6 members, and financing was always a struggle."
+        },
+        {
+            "type": "text",
+            "content": "<b>I knew the group should be much more than that</b>.  The mission was inspiring, the opportunities for students were incredible, and the impact was measurable and significant.  When I became President, I set out to grow the group to its full potential.  Here are the changes I made:"
+        },
+        {
+            "type": "text",
+            "content": "1)  <b>Organization structure</b> - The group had a typical college club organization structure.  There were 6 officers with clear responsibilities and everyone else was just a 'member'.  This meant if you weren't an elected officer, you had no responsibilities or commitment to the group.  I restructured the group to mimic that of a business where there were 20+ positions to fill, each with clear responsibilities.  I split up the group into three sub-teams and each had a designated manager.  The managers worked with the new members to get them a position and come up with their growth path in the group."
+        },
+        {
+            "type": "text",
+            "content": "2)  <b>Fundraising</b> - The group wasn't being well represented to the university leadership team, who decided which clubs received funding.  I prepared and pitched a presentation to the leadership team explaining what EWB offered to the students and the benefits of providing us with funding.  Shortly after the club received a $50k/yr repeating grant.  I also worked with the alumni association to create a reoccurring alumni newsletter, which lead to a steady flow of funds."
+        },
+        {
+            "type": "text",
+            "content": "3)  <b>Campus Outreach</b> - The group wasn't doing enough to recruit members.  I worked with the other officers to develop an annual recruitment plan including several campus activities to attract members."
+        },
+        {
+            "type": "text",
+            "content": "These changes are still in place today.  Since then, the group has had <b>surplus funding and held at 25 members strong</b>.  With the increase in members and funding, the group now works on <b>two projects at a time</b> in addition to small projects in the local community."
+        }
+
+    ],
+    "chip-testing-software-development": [
+        {
+            "type": "title",
+            "content": "Chip Testing Software Development"
+        },
+        {
+            "type": "section",
+            "content": "TL;DR"
+        },
+        {
+            "type": "text",
+            "content": "Debugged software used to test chips, <b>improving 40 programs and saving $130k/yr</b>.  Developed software to analyze test data, find cost saving opportunities, and detect possible bugs."
+        },
+        {
+            "type": "section",
+            "content": "Background"
+        },
+        {
+            "type": "text",
+            "content": "Every semiconductor chip must be tested for performance before being shipped.  The testing is done using a large machine that applies a lengthy series of tests.  Each test is the application of precise currents and voltages and the measurement of a result."
+        },
+        {
+            "type": "text",
+            "content": "The data from these tests is logged to a database.  If a chip is within acceptable limits for every test, it passes.  Otherwise it is thrown away."
+        },
+        {
+            "type": "image",
+            "source": "chip-testing-software-development",
+            "caption": "Chips being automatically tested"
+        },
+        {
+            "type": "image",
+            "source": "chip-testers",
+            "caption": "Machines that test chips"
+        },
+        {
+            "type": "text",
+            "content": "The instructions for these tests are in C++ programs accessible to the testers.  Each of the thousands of devices at a facility has its own program."
+        },
+        {
+            "type": "image",
+            "source": "test-code",
+            "caption": "Test program code snippet"
+        },
+        {
+            "type": "section",
+            "content": "Debugging and Fixing Test Programs"
+        },
+        {
+            "type": "text",
+            "content": "Sometimes chips fail because they weren't built correctly, but often chips fail because of a problem with the test program."
+        },
+        {
+            "type": "text",
+            "content": "I'll demonstrate using an example with an extremely simple solution.  Below is a test that had many chips failing.  This test was causing a loss of $8k/yr."
+        },
+        {
+            "type": "image",
+            "source": "test-data",
+            "caption": "Test with many chips outside the limits"
+        },
+        {
+            "type": "text",
+            "content": "Below you can see the problematic code that caused these chips to fail.  The boolean was being assigned to the array zap_ppt instead of an index in that array.  Once fixed, nearly all of the chips passed this test."
+        },
+        {
+            "type": "image",
+            "source": "solution",
+            "caption": "Simple solution to the failing chips above"
+        },
+        {
+            "type": "section",
+            "content": "Software to Automate the Process"
+        },
+        {
+            "type": "text",
+            "content": "Finding and fixing test programs was an overly manual process, and prioritizing which programs to prioritize first was difficult."
+        },
+        {
+            "type": "text",
+            "content": "I created an internal app that automated the detection and prioritization of test program fixes.  Here is how the app worked:"
+        },
+        {
+            "type": "text",
+            "content": "1) Found the scrap cost of every test in every program by multiplying chips scrapped/yr by cost of scrapping a chip from that device."
+        },
+        {
+            "type": "text",
+            "content": "2) Using the data distribution and test parameters, estimated the difficulty of fixing a test.  For example, some fail distributions were well known and had simple solutions."
+        },
+        {
+            "type": "text",
+            "content": "3) Used the above scrap cost and probability of being fixable to prioritize the order the test programs should be addressed."
+        },
+        {
+            "type": "text",
+            "content": "4) Exported the results as a CSV file that engineers could work from."
+        },
+        {
+            "type": "text",
+            "content": "The app was popular with the engineers and has since been developed further."
+        },
+        {
+            "type": "section",
+            "content": "Total Impact"
+        },
+        {
+            "type": "text",
+            "content": "Using the app I created, I was able to find and <b>fix 40 different programs for a savings of $130k/yr</b>.  Because of the app I created, other engineers have been able to fix many additional programs."
+        }
+
+    ]
+    
+}
