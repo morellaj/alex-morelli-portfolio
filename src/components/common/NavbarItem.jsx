@@ -20,7 +20,7 @@ export default function Navbar({ unit: { title, link } }) {
 }
 
 // Styling
-const Item = styled.li`
+const Item = styled.div`
   border-radius: 5px;
   margin: 0 0 0 1em;
   transition: color 1s;

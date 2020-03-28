@@ -20,7 +20,7 @@ export default function Home({ title, navList }) {
   );
 }
 
-const Container = styled.div`
+const Container = styled.nav`
     background-color: ${colors.color};
     color: ${colors.darkerColor};
     border-radius: 25px;

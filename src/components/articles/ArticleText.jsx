@@ -7,7 +7,7 @@ export default function Home({ id, content }) {
   );
 }
 
-const Text = styled.div`
+const Text = styled.p`
     line-height: 2;
     font-size: 20px;
     margin-bottom: 20px;

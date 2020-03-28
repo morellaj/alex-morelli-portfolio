@@ -44,18 +44,20 @@ export default function Home() {
           </StyledLink>
         </SummaryLinks>
       </SummaryContainer>
-      <Heading>Recent Projects</Heading>
-      <ProjectDisplay projectList={projectList} />
+      <article>
+        <Heading>Recent Projects</Heading>
+        <ProjectDisplay projectList={projectList} />
+      </article>
     </Container>
   );
 }
 
-const Container = styled.div`
+const Container = styled.main`
     background-color: ${colors.color};
     color: ${colors.darkerColor};
 `;
 
-const SummaryContainer = styled.div`
+const SummaryContainer = styled.article`
     background-color: ${colors.darkColor};
     color: white;
     display: flex;
@@ -70,20 +72,20 @@ const SummaryContainer = styled.div`
     }
 `;
 
-const SummaryHeading = styled.div`
+const SummaryHeading = styled.h1`
   font-weight: 700;
   font-size: 2em;
   margin-bottom: 10px;
 `;
 
-const SummaryText = styled.div`
+const SummaryText = styled.p`
   font-size: 1em;
   max-width: 600px;
   text-align: center;
   margin-bottom: 20px;
 `;
 
-const SummaryLinks = styled.div`
+const SummaryLinks = styled.nav`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;

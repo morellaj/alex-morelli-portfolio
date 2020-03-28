@@ -67,7 +67,7 @@ export default function ProjectDisplay({ project: { title, tags, role, links, de
   );
 }
 
-const ProjectContainer = styled.div`
+const ProjectContainer = styled.section`
   width: 1000px;
   display: flex;
   flex-direction: row;
@@ -90,14 +90,14 @@ const ProjectContainer = styled.div`
   }
 `;
 
-const SectionContainer = styled.div`
+const SectionContainer = styled.section`
   flex: 1 1 0;
   padding: 5px;
   display: flex;
   flex-direction: column;
 `;
 
-const Title = styled.div`
+const Title = styled.h1`
   color: ${colors.darkerColor};
   font-size: 1.4em;
   font-weight: 500;
@@ -121,11 +121,11 @@ const DetailsContainer = styled.div`
   border-bottom: 1px solid ${colors.darkerColor};
 `;
 
-const Detail = styled.div`
+const Detail = styled.p`
   margin: .15em;
 `;
 
-const Links = styled.div`
+const Links = styled.nav`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -159,7 +159,7 @@ const DescriptionContainer = styled.div`
   height: 100%;
 `;
 
-const Description = styled.div`
+const Description = styled.p`
   margin: .5em;
   color: black;
 `;

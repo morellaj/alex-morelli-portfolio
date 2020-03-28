@@ -27,7 +27,7 @@ export default function ProjectPage() {
   );
 }
 
-const Container = styled.div`
+const Container = styled.main`
     background-color: ${colors.color};
     color: ${colors.darkerColor};
     padding-top: 30px;

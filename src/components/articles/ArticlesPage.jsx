@@ -32,6 +32,7 @@ export default function Home({ location, match }) {
     switch (type) {
       case 'title':
         title = content;
+        article.push(<Title>{content}</Title>);
         break;
       case 'section':
         article.push(<Section id={content.replace(/\s+/g, '-').toLowerCase()}>{content}</Section>);
@@ -71,7 +72,7 @@ export default function Home({ location, match }) {
   );
 }
 
-const Container = styled.div`
+const Container = styled.main`
     background-color: white;
     color: black;
     display: flex;
@@ -84,7 +85,7 @@ const Container = styled.div`
     }
 `;
 
-const ArticleContainer = styled.div`
+const ArticleContainer = styled.article`
     width: 100%;
     padding: 0 1em;
 
@@ -93,7 +94,11 @@ const ArticleContainer = styled.div`
     }
 `;
 
-const Section = styled.div`
+const Title = styled.h1`
+
+`;
+
+const Section = styled.h2`
   font-weight: 400;
   width: 100%;
   font-size: 2em;
@@ -101,7 +106,7 @@ const Section = styled.div`
   color: ${colors.darkColor}
 `;
 
-const Text = styled.div`
+const Text = styled.p`
     line-height: 200%;
     font-size: 1em;
     margin-bottom: 1em;
