@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="font-family:arial narrow; background-color: #EEECEF">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -19,32 +19,5 @@
     <div id="app" style="min-height: 110vh">
     </div>
   </body>
-  <script>
-    // Hack to force styled components to render styles during prerender
-    // for googlebot
-    window.onload = () => {
-      if(typeof navigator != 'undefined' && /prerender/i.test(navigator.userAgent)) {
-      var el = document.createElement('style');
-      document.head.appendChild(el)     
-      var styles = document.querySelectorAll('style[data-styled]')
-      for (style of styles.values()) {
-          for (rule of style.sheet.rules) {
-            el.appendChild(document.createTextNode(rule.cssText))
-          }
-      }
-    }
-    };
-</script>
 </html>
-<!--
-<script>
-  // Check that service workers are supported!!
-  if ('serviceWorker' in navigator) {
-    // Use the window load event to keep the page load performant
-    window.addEventListener('load', () => {
-      navigator.serviceWorker.register('/service-worker.js');
-    });
-  }
-  </script>
-  -->
 

@@ -14,14 +14,22 @@ const ArticlesPage = lazy(() => import('./components/articles/ArticlesPage'));
 
 const GlobalStyle = createGlobalStyle`
  ${normalize}
+ html {
+  background-color: #EEECEF;
+ }
+
  body {
-   margin: 0;
-   font-family: 'Roboto', sans-serif;
-    min-height: 110vh;
-    position: relative;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  min-height: 110vh;
+  position: relative;
  }
 
  h1 {
+   margin: 0;
+ }
+
+ h2 {
    margin: 0;
  }
 

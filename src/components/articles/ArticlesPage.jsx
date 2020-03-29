@@ -32,7 +32,6 @@ export default function Home({ location, match }) {
     switch (type) {
       case 'title':
         title = content;
-        article.push(<Title>{content}</Title>);
         break;
       case 'section':
         article.push(<Section id={content.replace(/\s+/g, '-').toLowerCase()}>{content}</Section>);
@@ -92,10 +91,6 @@ const ArticleContainer = styled.article`
     @media(max-width: 900px){
       width: 35em;
     }
-`;
-
-const Title = styled.h1`
-
 `;
 
 const Section = styled.h2`
