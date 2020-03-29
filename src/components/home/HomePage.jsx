@@ -21,7 +21,9 @@ export default function Home() {
           Front-end Developer
         </SummaryHeading>
         <SummaryText>
-          Web developer specializing in React.  Co-founder and developer of LearningistheSolution.com.  Award winning electrical engineer.
+          Award-winning electrical engineer turned front-end developer.
+          <br />
+          Co-founder and web developer of Learning is the Solution.
         </SummaryText>
         <SummaryLinks>
           <StyledLink

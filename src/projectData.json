@@ -81,7 +81,7 @@
         "date": "August 2016 - March 2019",
         "tags": ["Leadership", "Team", "Electrical", "Robotics"],
         "role": "Engineering Manager",
-        "description": "Tasked with improving performance of a team of 15 technicians.  Over 2 years drove significant improvements to tool down time, cost savings, and documentation, leading to <b>overall performance improvement of 23%</b>."
+        "description": "Tasked with improving performance of 15 technicians.  Over 2 years drove significant improvements to tool down time, cost savings, and documentation, leading to <b>overall performance improvement of 23%</b>."
     },
     {
         "title": "Pneumatic Lines Upgrade",
@@ -104,14 +104,14 @@
         "description": "Redesigned a toolset, including the design of the software and hardware for a new robot controller.  <b>Saved $132k/yr</b> in damaged product/equipment.  Presented at 2018 worldwide innovation competition and placed <b>10<sup>th</sup>/450</b>."
     },
     {
-        "title": "Tool Monitoring Software",
+        "title": "Tool Safeguarding Software",
         "order": 7,
         "tags": ["Software", "TIMS"],
         "role": "Software Developer",
         "description": "Used TI's Tool Interdiction Monitoring System (TIMS) to create tool monitoring software for several toolsets, including furnaces and hoods.  Monitored tool data to catch and interdict if something goes wrong."
     },
     {
-        "title": "Equipment State Management Software",
+        "title": "Tool Status Management Software",
         "order": 8,
         "tags": ["Front-end", "JavaScript", "React", "Team"],
         "role": "Software Developer",
@@ -147,7 +147,7 @@
                     "link": "/articles/chip-testing-software-development"
                 }
         ],
-        "description": "Debugged software used to test chips, <b>improving 40 programs and saving $130k/yr</b>.  Developed software to analyze test data, find cost saving opportunities, and detect possible bugs."
+        "description": "<b>Saved $130k/yr</b> by reducing false-positive rate of 40+ chip flagging applications.  Applied statistical modeling on a SQL database to predict faulty testing methods."
     },
     {
         "title": "Chip Tracking Software",

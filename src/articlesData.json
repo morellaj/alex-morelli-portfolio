@@ -785,7 +785,7 @@
         },
         {
             "type": "text",
-            "content": "Debugged software used to test chips, <b>improving 40 programs and saving $130k/yr</b>.  Developed software to analyze test data, find cost saving opportunities, and detect possible bugs."
+            "content": "<b>Saved $130k/yr</b> by reducing false-positive rate of 40+ chip flagging applications.  Applied statistical modeling on a SQL database to predict faulty testing methods."
         },
         {
             "type": "section",
@@ -820,7 +820,7 @@
         },
         {
             "type": "section",
-            "content": "Debugging and Fixing Test Programs"
+            "content": "Reducing False-Positive Rate"
         },
         {
             "type": "text",
@@ -846,7 +846,7 @@
         },
         {
             "type": "section",
-            "content": "Software to Automate the Process"
+            "content": "Automating the Process"
         },
         {
             "type": "text",
