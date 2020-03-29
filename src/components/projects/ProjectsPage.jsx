@@ -20,7 +20,7 @@ export default function ProjectPage() {
 
   return (
     <Container>
-      <Heading>Major Projects and Accomplishments</Heading>
+      <Heading>Projects and Accomplishments</Heading>
       <ProjectsFilter count={projectList.length} filter={filter} setFilter={setFilter} />
       <ProjectDisplay projectList={projectList} />
     </Container>
