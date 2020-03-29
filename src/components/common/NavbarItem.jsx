@@ -3,7 +3,6 @@ import React from 'react';
 import styled from 'styled-components';
 import ReactGA from 'react-ga';
 import { Link } from 'react-router-dom';
-import colors from '../../colors.json';
 
 // Component
 export default function Navbar({ unit: { title, link } }) {
@@ -26,7 +25,7 @@ const Item = styled.div`
   transition: color 1s;
 
   :hover{
-    color: ${colors.darkerColor};
+    color: ${({ theme }) => theme.themeDarkerColor};
   }
 `;
 

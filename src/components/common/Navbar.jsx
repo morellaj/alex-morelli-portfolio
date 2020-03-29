@@ -4,7 +4,6 @@ import styled from 'styled-components';
 
 // Component dependencies
 import NavbarItem from './NavbarItem';
-import colors from '../../colors.json';
 
 // Data dependencies
 const navbarList = [
@@ -42,7 +41,7 @@ export default function Navbar() {
 const Container = styled.header`
   display: flex;
   justify-content: space-between;
-  background-color: ${colors.darkColor};
+  background-color: ${({ theme }) => theme.themeDarkColor};
   color: white;
   width: 100%;
   padding: 30px 0;

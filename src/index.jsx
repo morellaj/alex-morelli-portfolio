@@ -4,8 +4,9 @@ import 'typeface-roboto';
 import ReactDOM from 'react-dom';
 import { Route, Switch, BrowserRouter } from 'react-router-dom';
 import Navbar from './components/common/Navbar';
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle, ThemeProvider } from 'styled-components';
 import { normalize } from 'styled-normalize';
+import theme from './theme';
 
 // File dependencies
 const HomePage = lazy(() => import('./components/home/HomePage'));
@@ -40,14 +41,16 @@ const GlobalStyle = createGlobalStyle`
 
 ReactDOM.render((
   <BrowserRouter>
-    <GlobalStyle />
-    <Navbar />
-    <Suspense fallback={<div />}>
-      <Switch>
-        <Route exact path="/" component={HomePage} />
-        <Route path="/projects" component={ProjectsPage} />
-        <Route path="/articles/:article" component={ArticlesPage} />
-      </Switch>
-    </Suspense>
+    <ThemeProvider theme={theme}>
+      <GlobalStyle />
+      <Navbar />
+      <Suspense fallback={<div />}>
+        <Switch>
+          <Route exact path="/" component={HomePage} />
+          <Route path="/projects" component={ProjectsPage} />
+          <Route path="/articles/:article" component={ArticlesPage} />
+        </Switch>
+      </Suspense>
+    </ThemeProvider>
   </BrowserRouter>
 ), document.getElementById('app'));

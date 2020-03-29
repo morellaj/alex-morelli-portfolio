@@ -41,7 +41,6 @@ module.exports = {
     'import/resolver': {
       alias: {
         map: [
-          ['Colors', './src/colors.json'],
           ['Data', './src/projectData.json'],
           ['Assets', './assets/'],
         ]

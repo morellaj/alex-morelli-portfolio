@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import colors from '../../colors.json';
 
 export default function Home({ title, navList }) {
   const list = navList.map((section) => (
@@ -21,8 +20,8 @@ export default function Home({ title, navList }) {
 }
 
 const Container = styled.nav`
-    background-color: ${colors.color};
-    color: ${colors.darkerColor};
+    background-color: ${({ theme }) => theme.themeColor};
+    color: ${({ theme }) => theme.themeDarkerColor};
     border-radius: 25px;
     margin: 90px 20px;
     padding: 20px 20px;
@@ -39,7 +38,7 @@ const Container = styled.nav`
 const Title = styled.div`
     font-size: 20px;
     text-align: center;
-    border-bottom: 1px solid ${colors.darkerColor};
+    border-bottom: 1px solid ${({ theme }) => theme.themeDarkerColor};
     padding-bottom: 20px;
 `;
 
@@ -58,6 +57,6 @@ const Section = styled.div`
 
     :hover {
         color: white;
-        background-color: ${colors.darkerColor};
+        background-color: ${({ theme }) => theme.themeDarkerColor};
     }
 `;

@@ -3,7 +3,6 @@
 /* eslint-disable no-restricted-syntax */
 import React, { useEffect } from 'react';
 import styled from 'styled-components';
-import colors from '../../colors.json';
 import Navigation from './Navigation';
 import ArticleImage from './ArticleImage';
 import ArticleVideo from './ArticleVideo';
@@ -98,7 +97,7 @@ const Section = styled.h2`
   width: 100%;
   font-size: 2em;
   margin-top: 90px;
-  color: ${colors.darkColor}
+  color: ${({ theme }) => theme.themeDarkColor};
 `;
 
 const Text = styled.p`

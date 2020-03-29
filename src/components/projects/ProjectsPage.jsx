@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import projectData from '../../projectData.json';
 import ProjectDisplay from './ProjectDisplay';
 import ProjectsFilter from './ProjectsFilter';
-import colors from '../../colors.json';
 
 export default function ProjectPage() {
   const [filter, setFilter] = useState('Show All');
@@ -28,8 +27,8 @@ export default function ProjectPage() {
 }
 
 const Container = styled.main`
-    background-color: ${colors.color};
-    color: ${colors.darkerColor};
+    background-color: ${({ theme }) => theme.themeColor};
+    color: ${({ theme }) => theme.themeDarkerColor};
     padding-top: 30px;
 `;
 

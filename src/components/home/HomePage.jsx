@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import styled from 'styled-components';
 import projectData from '../../projectData.json';
 import ProjectDisplay from '../projects/ProjectDisplay';
-import colors from '../../colors.json';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 
 
@@ -53,12 +52,12 @@ export default function Home() {
 }
 
 const Container = styled.main`
-    background-color: ${colors.color};
-    color: ${colors.darkerColor};
+    background-color: ${({ theme }) => theme.themeColor};
+    color: ${({ theme }) => theme.themeDarkerColor};
 `;
 
 const SummaryContainer = styled.article`
-    background-color: ${colors.darkColor};
+    background-color: ${({ theme }) => theme.themeDarkColor};
     color: white;
     display: flex;
     flex-direction: column;
@@ -99,7 +98,7 @@ const StyledLink = styled.a`
   display: flex;
 
   :hover {
-    color: ${colors.darkerColor};
+    color: ${({ theme }) => theme.themeDarkerColor};
   }
 `;
 
@@ -118,11 +117,11 @@ const Button = styled.div`
   font-size: .6em;
   font-weight: 900;
   background-color: white;
-  color: ${colors.darkColor};
+  color: ${({ theme }) => theme.themeDarkColor};
   margin: 0 .6em;
   transition: background-color 1s;
 
   :hover {
-    background-color: ${colors.darkerColor};
+    background-color: ${({ theme }) => theme.themeDarkerColor};
   }
 `;

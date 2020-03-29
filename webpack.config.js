@@ -17,7 +17,6 @@ module.exports = {
   },
   resolve: {
     alias: {
-      Colors: path.join(__dirname, 'src/colors.json'),
       Data: path.join(__dirname, 'src/projectData.json'),
       Assets: path.join(__dirname, 'assets/'),
     },

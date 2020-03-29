@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import colors from '../../colors.json';
 
 const list = [
   {
@@ -124,8 +123,8 @@ const Button = styled.div`
   text-align: center;
   font-size: 15px;
   font-weight: 700;
-  background-color: ${(props) => (
-    props.selected ? colors.darkerColor : colors[props.category].color
+  background-color: ${({ selected, theme, category }) => (
+    selected ? theme.themeDarkerColor : theme[`${category}Color`]
   )};
   color: white;
   border: 1px solid black;
@@ -136,7 +135,7 @@ const Button = styled.div`
   cursor: pointer;
 
   :hover {
-    background-color: ${colors.darkerColor};
+    background-color: ${({ theme }) => theme.themeDarkerColor};
   }
 `;
 

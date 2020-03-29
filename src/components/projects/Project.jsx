@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import colors from '../../colors.json';
 import { Link } from 'react-router-dom';
 
 const noShowList = ['Software', 'Front-end', 'Team', "ACRView", 'TIMS', 'Award', 'Electrical'];
@@ -98,7 +97,7 @@ const SectionContainer = styled.section`
 `;
 
 const Title = styled.h1`
-  color: ${colors.darkerColor};
+  color: ${({ theme }) => theme.themeDarkerColor};
   font-size: 1.4em;
   font-weight: 500;
   margin-bottom: .5em;
@@ -116,9 +115,9 @@ const Picture = styled.picture`
 `;
 
 const DetailsContainer = styled.div`
-  color: ${colors.darkerColor};
+  color: ${({ theme }) => theme.themeDarkerColor};
   margin: .15em .5em;
-  border-bottom: 1px solid ${colors.darkerColor};
+  border-bottom: 1px solid ${({ theme }) => theme.themeDarkerColor};
 `;
 
 const Detail = styled.p`
@@ -139,7 +138,7 @@ export const Button = styled.div`
   text-align: center;
   font-size: 1em;
   font-weight: 700;
-  background-color: ${colors.darkColor};
+  background-color: ${({ theme }) => theme.themeDarkColor};
   color: white;
   margin: 0 .5em;
   border: 1px solid black;
@@ -149,7 +148,7 @@ export const Button = styled.div`
   transition: background-color 1s;
 
   :hover {
-    background-color: ${colors.darkerColor};
+    background-color: ${({ theme }) => theme.themeDarkerColor};
   }
 `;
 
