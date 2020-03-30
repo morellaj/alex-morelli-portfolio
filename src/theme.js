@@ -7,5 +7,4 @@ const theme = {
   allColor: "#66A7D5"
 };
 
-
 export default theme;

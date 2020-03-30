@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import projectData from '../../projectData.json';
 import ProjectDisplay from './ProjectDisplay';
 import ProjectsFilter from './ProjectsFilter';
+import { Heading } from '../../sharedStyles';
 
 export default function ProjectPage() {
   const [filter, setFilter] = useState('Show All');
@@ -30,12 +31,4 @@ const Container = styled.main`
     background-color: ${({ theme }) => theme.themeColor};
     color: ${({ theme }) => theme.themeDarkerColor};
     padding-top: 30px;
-`;
-
-const Heading = styled.h1`
-  font-weight: 400;
-  width: 100%;
-  text-align: center;
-  font-size: 40px;
-  margin: 0;
 `;

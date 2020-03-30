@@ -3,11 +3,12 @@ import styled from 'styled-components';
 import projectData from '../../projectData.json';
 import ProjectDisplay from '../projects/ProjectDisplay';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { Heading } from '../../sharedStyles';
 
 
 const list = ['Learning is the Solution', 'Online Book Maker', 'Online Science Curriculum', 'Gravity Simulator'];
 
-export default function Home() {
+export default function HomePage() {
   useEffect(() => {
     window.scrollTo(0, 0);
   });
@@ -65,7 +66,7 @@ const SummaryContainer = styled.article`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 10px 20px 10px;
+    padding: 0 .5em 2em .5em;
     font-size: 20px;
 
     @media(max-width: 800px){
@@ -76,14 +77,14 @@ const SummaryContainer = styled.article`
 const SummaryHeading = styled.h1`
   font-weight: 700;
   font-size: 2em;
-  margin-bottom: 10px;
+  margin-bottom: .25em;
 `;
 
 const SummaryText = styled.p`
   font-size: 1em;
-  max-width: 600px;
+  max-width: 30em;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 1em;
 `;
 
 const SummaryLinks = styled.nav`
@@ -102,15 +103,6 @@ const StyledLink = styled.a`
   :hover {
     color: ${({ theme }) => theme.themeDarkerColor};
   }
-`;
-
-const Heading = styled.h1`
-  font-weight: 400;
-  width: 100%;
-  text-align: center;
-  font-size: 40px;
-  margin-top: 60px;
-  margin-bottom: 0;
 `;
 
 const Button = styled.div`
