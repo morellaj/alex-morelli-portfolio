@@ -68,8 +68,8 @@ export default function ProjectDisplay({ project: { title, tags, role, links, de
 
 const Container = styled.section`
   width: 1000px;
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   margin: 30px; 
   border-radius: 5px;
   position: relative;
@@ -79,6 +79,7 @@ const Container = styled.section`
   overflow: hidden;
 
   @media(max-width: 1100px) {
+    display: flex;
     flex-direction: column;
     width: 500px;
   }
