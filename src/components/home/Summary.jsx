@@ -84,8 +84,8 @@ const StyledLink = styled.a`
 `;
 
 const Button = styled.div`
-  border-radius: 5px;
-  padding: 8px;
+  border-radius: .2em;
+  padding: .33em;
   font-size: .6em;
   font-weight: 900;
   background-color: white;
