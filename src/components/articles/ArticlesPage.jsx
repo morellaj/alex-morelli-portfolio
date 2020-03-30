@@ -33,17 +33,17 @@ export default function Home({ location, match }) {
         title = content;
         break;
       case 'section':
-        article.push(<Section id={content.replace(/\s+/g, '-').toLowerCase()}>{content}</Section>);
+        article.push(<Section id={content.replace(/\s+/g, '-').toLowerCase()} key={content}>{content}</Section>);
         navList.push(content);
         break;
       case 'text':
-        article.push(<Text id={i} dangerouslySetInnerHTML={{ __html: content }} />);
+        article.push(<Text id={i} key={i} dangerouslySetInnerHTML={{ __html: content }} />);
         break;
       case 'video':
-        article.push(<ArticleVideo id={source} source={source} caption={caption} />);
+        article.push(<ArticleVideo id={source} source={source} caption={caption} key={caption} />);
         break;
       case 'image':
-        article.push(<ArticleImage id={source} source={source} caption={caption} />);
+        article.push(<ArticleImage id={source} source={source} caption={caption} key={caption} />);
         break;
       case 'iteration':
         article.push(

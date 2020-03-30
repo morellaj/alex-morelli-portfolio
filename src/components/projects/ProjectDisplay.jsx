@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Project from './Project';
 
 export default function ProjectDisplay({ projectList }) {
-  const list = projectList.map((project) => <Project project={project} />);
+  const list = projectList.map((project) => <Project project={project} key={project.title} />);
 
   return (
     <ProjectsContainer>

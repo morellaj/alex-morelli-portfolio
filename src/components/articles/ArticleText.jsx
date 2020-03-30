@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export default function Home({ id, content }) {
   return (
-    <Text id={id} dangerouslySetInnerHTML={{ __html: content }} />
+    <Text id={id} key={id} dangerouslySetInnerHTML={{ __html: content }} />
   );
 }
 

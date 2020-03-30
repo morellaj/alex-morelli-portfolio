@@ -1,7 +1,6 @@
 // Package dependencies
 import React from 'react';
 import styled from 'styled-components';
-import ReactGA from 'react-ga';
 import { Link } from 'react-router-dom';
 
 // Component
@@ -9,7 +8,6 @@ export default function Navbar({ unit: { title, link } }) {
   return (
     <Item
       key={title}
-      onClick={() => ReactGA.event({ category: 'Navbar', action: `click ${title}` })}
     >
       <StyledLink to={link}>
         <ItemText>{title}</ItemText>

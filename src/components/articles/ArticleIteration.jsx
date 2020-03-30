@@ -17,10 +17,10 @@ export default function ArticleIteration({
 
   textContent += `<br><b>Learnings</b>: ${learnings}`;
 
-  const video = src ? <ArticleVideo source={src} caption={caption} /> : null;
+  const video = src ? <ArticleVideo key={caption} source={src} caption={caption} /> : null;
   return (
     <>
-      <ArticleText id={version} content={textContent} />
+      <ArticleText id={version} key={version} content={textContent} />
       {video}
     </>
   );

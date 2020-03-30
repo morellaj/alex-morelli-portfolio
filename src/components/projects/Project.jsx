@@ -39,8 +39,10 @@ export default function ProjectDisplay({ project: { title, tags, role, links, de
     return `${acc}, ${ele}`;
   }, '');
   return (
-    <ProjectContainer key={title}>
+    <Container key={title}>
+      fixing mobile
       <SectionContainer>
+        fixing mobile
         <Picture>
           <source srcSet={`./assets/${videoTitle}.jpg`} />
           <img
@@ -61,12 +63,12 @@ export default function ProjectDisplay({ project: { title, tags, role, links, de
         </DescriptionContainer>
         <Links>{linkList}</Links>
       </SectionContainer>
-    </ProjectContainer>
+    </Container>
 
   );
 }
 
-const ProjectContainer = styled.section`
+const Container = styled.section`
   width: 1000px;
   display: flex;
   flex-direction: row;
