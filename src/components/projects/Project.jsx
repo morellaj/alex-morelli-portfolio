@@ -40,9 +40,7 @@ export default function ProjectDisplay({ project: { title, tags, role, links, de
   }, '');
   return (
     <Container key={title}>
-      fixing mobile
       <SectionContainer>
-        fixing mobile
         <Picture>
           <source srcSet={`./assets/${videoTitle}.jpg`} />
           <img
@@ -92,7 +90,9 @@ const Container = styled.section`
 `;
 
 const SectionContainer = styled.section`
-
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
 `;
 
 const Title = styled.h1`
