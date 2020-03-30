@@ -28,7 +28,7 @@ export default function Summary() {
         >
           <FaLinkedinIn />
         </StyledLink>
-        <StyledLink href="/assets/Alex Morelli Resume 2020 v4.pdf" download>
+        <StyledLink href="/assets/Alex Morelli Resume 2020.pdf" download>
           <Button>Resume</Button>
         </StyledLink>
       </Links>
