@@ -92,10 +92,7 @@ const Container = styled.section`
 `;
 
 const SectionContainer = styled.section`
-  flex: 1 1 0;
-  padding: 5px;
-  display: flex;
-  flex-direction: column;
+
 `;
 
 const Title = styled.h1`
