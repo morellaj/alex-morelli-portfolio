@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import ReactGA from 'react-ga';
 import { Link } from 'react-router-dom';
 
 const noShowList = ['Software', 'Front-end', 'Team', "ACRView", 'TIMS', 'Award', 'Electrical'];
@@ -10,7 +11,12 @@ export default function ProjectDisplay({ project: { title, tags, role, links, de
     ? links.map(({ link, name }) => {
       if (name === 'More Info') {
         return (
-          <Link to={link} style={{ textDecoration: 'none' }} key={name}>
+          <Link
+            to={link}
+            style={{ textDecoration: 'none' }}
+            onClick={() => ReactGA.event({ category: 'project', action: link })}
+            key={name}
+          >
             <Button>{name}</Button>
           </Link>
         );
@@ -21,6 +27,7 @@ export default function ProjectDisplay({ project: { title, tags, role, links, de
           style={{ textDecoration: 'none' }}
           target="_blank"
           rel="noopener noreferrer"
+          onClick={() => ReactGA.event({ category: 'project', action: link })}
           key={name}
         >
           <Button href={link}>

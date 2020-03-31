@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import ReactGA from 'react-ga';
 
 const list = [
   {
@@ -73,7 +74,10 @@ export default function ProjectsFilter({ filter, setFilter, count }) {
     <Button
       category={category}
       selected={filter === name}
-      onClick={() => setFilter(name)}
+      onClick={() => {
+        setFilter(name);
+        ReactGA.event({ category: 'filter', action: name });
+      }}
       key={name}
     >
       {name.toUpperCase()}

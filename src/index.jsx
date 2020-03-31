@@ -2,6 +2,7 @@
 import React, { Suspense, lazy } from 'react';
 import 'typeface-roboto';
 import ReactDOM from 'react-dom';
+import ReactGA from 'react-ga';
 import { Route, Switch, BrowserRouter } from 'react-router-dom';
 import Navbar from './components/common/Navbar';
 import { createGlobalStyle, ThemeProvider } from 'styled-components';
@@ -38,6 +39,7 @@ const GlobalStyle = createGlobalStyle`
    margin: 0;
  }
 `;
+ReactGA.initialize('UA-157541239-2');
 
 ReactDOM.render((
   <BrowserRouter>
