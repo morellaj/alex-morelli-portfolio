@@ -9,9 +9,9 @@ export default function Summary() {
         Front-end Developer
       </Heading>
       <Text>
-        Award-winning electrical engineer turned front-end developer.
+        Customer-focused web developer with 3+ years experience.
         <br />
-        Co-founder and web developer of Learning is the Solution.
+        Love learning new technologies. Specialize in React, JavaScript, and CSS.
       </Text>
       <Links>
         <StyledLink
@@ -28,7 +28,7 @@ export default function Summary() {
         >
           <FaLinkedinIn />
         </StyledLink>
-        <StyledLink href="/assets/Alex Morelli Resume 2020.pdf" download>
+        <StyledLink href="/assets/Alex Morelli Resume 2020.docx" download>
           <Button>Resume</Button>
         </StyledLink>
       </Links>
@@ -60,7 +60,7 @@ const Heading = styled.h1`
 
 const Text = styled.p`
   font-size: 1em;
-  max-width: 30em;
+  max-width: 35em;
   text-align: center;
   margin-bottom: 1em;
 `;
