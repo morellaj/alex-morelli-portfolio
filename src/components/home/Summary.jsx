@@ -6,7 +6,7 @@ export default function Summary() {
   return (
     <Container>
       <Heading>
-        Front-end Developer
+        Fullstack Developer
       </Heading>
       <Text>
         Customer-focused web developer with 3+ years experience.
