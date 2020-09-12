@@ -48,7 +48,7 @@
     "react-timeout": "^1.2.0",
     "react-useinterval": "^1.0.1",
     "redux": "^4.0.5",
-    "serialize-javascript": "^2.1.2",
+    "serialize-javascript": "^3.1.0",
     "set-value": "^3.0.1",
     "styled-components": "^4.4.1",
     "styled-normalize": "^8.0.7",
